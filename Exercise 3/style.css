@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-image: url(bg-body.png)
+}
+.header {
+  position: relative;
+  width: 876px;
+  margin: 0 auto;
+  padding-left: 240px;
+}
+.header img{
+  vertical-align: middle;
+  width:500px;
+}
+.header .content{
+  font-style: italic;
+  color: #bab6b3;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.option {
+  position: relative;
+  width: 876px;
+  margin: 0 auto;
+  padding-left: 240px;
+}
+.option img{
+  vertical-align: middle;
+  width:500px;
+  height: 55px;
+}
+.option .link{
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.link a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#middle {
+  height: 514px;
+}
+#left {
+  position: relative;
+  width: 876px;
+  margin: 0 auto;
+  padding-left: 240px;
+}
+#left img{
+  vertical-align: middle;
+  width: 470px;
+  height: 100px;
+}
+#left h2{
+  color:  #c9d85c;
+  margin-left: 10px;
+}
+#p1{
+  color: #bab6b3;
+}
+#left p{
+  text-align: justify;
+  float: left;
+  margin-right: 385px;
+  margin-left: 10px;
+}
+.footer {
+  position: relative;
+  width: 876px;
+  margin: 0 auto;
+  padding-left: 240px;
+}
+.footer img{
+  vertical-align: middle;
+  width:700px;
+  height: 80px;
+}
+.footer .content{
+  color: #bab6b3;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+/*#right {
+  position: relative;
+  width: 876px;
+  margin: 0 auto;
+  padding-left: 240px;
+  float: right;
+}
+#right img{
+  vertical-align: middle;
+  width: 100px;
+  height: 50px;
+}
+<img src="bg-feed.gif" alt="feed" style="width=80%;"
