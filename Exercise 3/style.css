@@ -2,17 +2,24 @@ body {
   padding: 0;
   margin: 0;
   display: block;
-  background-image: url(bg-body.png)
+  background-image: url(bg-body.png);
+  background-repeat: no-repeat;
+  background-size: 100% 781.4px;
+}
+#container {
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
 }
 .header {
   position: relative;
-  width: 876px;
-  margin: 0 auto;
-  padding-left: 240px;
+  width: 840px;
+  margin-left: 0px;
+  margin-right: auto;
 }
 .header img{
   vertical-align: middle;
-  width:500px;
 }
 .header .content{
   font-style: italic;
@@ -23,9 +30,8 @@ body {
 }
 .option {
   position: relative;
-  width: 876px;
+  width: 840px;
   margin: 0 auto;
-  padding-left: 240px;
 }
 .option img{
   vertical-align: middle;
@@ -43,13 +49,15 @@ body {
   text-decoration: none;
 }
 #middle {
-  height: 514px;
+  height: 450px;
+  margin-left: 0px;
+  margin-right: auto;
 }
 #left {
   position: relative;
-  width: 876px;
+  width: 480px;
   margin: 0 auto;
-  padding-left: 240px;
+  float: left;
 }
 #left img{
   vertical-align: middle;
@@ -66,36 +74,82 @@ body {
 #left p{
   text-align: justify;
   float: left;
-  margin-right: 385px;
+  margin-right: 0px;
   margin-left: 10px;
 }
 .footer {
   position: relative;
-  width: 876px;
-  margin: 0 auto;
-  padding-left: 240px;
+  width: 670px;
+  margin-left: 0px;
 }
 .footer img{
   vertical-align: middle;
-  width:700px;
+  width:670px;
   height: 80px;
 }
 .footer .content{
-  color: #bab6b3;
+  color: #ffffff;
   position: absolute;
   bottom: 0;
   padding: 20px;
 }
-/*#right {
-  position: relative;
-  width: 876px;
-  margin: 0 auto;
-  padding-left: 240px;
+#right {
+  width: 180px;
+  height: 400px;
+  margin-left: 0px;
+  margin-right: auto;
   float: right;
+  position: relative;
 }
 #right img{
+  position: relative;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 175px;
+  height: 210px;
   vertical-align: middle;
-  width: 100px;
-  height: 50px;
 }
-<img src="bg-feed.gif" alt="feed" style="width=80%;"
+.container1 {
+  position: relative;
+  margin-left: 0px;
+  margin-right: auto;
+}
+.container1 .link1 {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.link1 div{
+  width: 164px;
+  border-bottom: 1px solid grey;
+}
+.link1 a{
+  color: #000000;
+  text-decoration: none;
+}
+.clearer {
+  clear: both;
+}
+.middle2 {
+  position: relative;
+  width: 480px;
+  height: 62px;
+  margin-left: 0px;
+}
+.middle2 .img{
+  vertical-align: middle;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.middle2 .content{
+  float: right;
+  color:  #0099ff;
+  margin-left: -30px;
+  margin-right: 373px;
+}
+.middle2 .content p {
+  margin-top: 0px;
+}
